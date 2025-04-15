@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marview Caffetaria</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- ikon keranjang -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/style/navbar.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span>Marview Caffetaria</span></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Menu Tengah -->
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Menu Kanan -->
+          <div class="d-flex align-items-center">
+            <a href="#" class="me-3 text-secondary text-decoration-none"
+              >Login</a
+            >
+            <a href="#" class="btn btn-register me-3">Register</a>
+
+            <!-- Cart Icon -->
+            <a href="#" class="cart-icon position-relative">
+              <i class="fas fa-shopping-cart"></i>
+              <span
+                class="badge bg-danger rounded-pill cart-badge"
+                id="cart-count"
+                >0</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <header
+      class="hero-bg d-flex align-items-center justify-content-center text-center text-white"
+    >
+      <div>
+        <h1 class="fw-bold display-4">
+          Delicious Food Delivered To Your Doorstep
+        </h1>
+        <p class="lead">
+          Order from the best restaurants in town with just a few clicks
+        </p>
+        <a href="#" class="btn btn-orange mt-3">Order Now</a>
+      </div>
+    </header>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
